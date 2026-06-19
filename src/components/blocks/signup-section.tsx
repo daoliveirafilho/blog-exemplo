@@ -13,13 +13,6 @@ const SignupSection = () => {
         <div className="flex flex-col gap-4">
           <Card className="mx-auto w-full max-w-sm">
             <CardHeader className="flex flex-col items-center space-y-0">
-              <img
-                src="/logo.svg"
-                alt="logo"
-                width={94}
-                height={18}
-                className="mb-7 dark:invert"
-              />
               <p className="mb-2 text-2xl font-bold">Start your free trial</p>
               <p className="text-muted-foreground">
                 Sign up in less than 2 minutes.

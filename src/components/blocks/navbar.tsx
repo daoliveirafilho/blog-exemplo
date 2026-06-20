@@ -42,8 +42,8 @@ export const Navbar = () => {
           <img
             src="/logo.svg"
             alt="logo"
-            width={50}
-            height={50}
+            width={30}
+            height={30}
             className="dark:invert"
           />
         </a>

@@ -49,10 +49,6 @@ const LoginSection = () => {
                 <Button type="submit" className="mt-2 w-full">
                   Create an account
                 </Button>
-                <Button variant="outline" className="w-full">
-                  <FcGoogle className="mr-2 size-5" />
-                  Sign up with Google
-                </Button>
               </div>
               <div className="text-muted-foreground mx-auto mt-8 flex justify-center gap-1 text-sm">
                 <p>Don&apos;t have an account?</p>

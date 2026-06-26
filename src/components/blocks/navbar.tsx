@@ -18,7 +18,6 @@ import { cn } from "@/lib/utils";
 const ITEMS = [
   { label: "Blog", href: "/blog" },
   { label: "Login", href: "/login" },
-  { label: "Signup", href: "/signup" },
 ];
 
 export const Navbar = () => {

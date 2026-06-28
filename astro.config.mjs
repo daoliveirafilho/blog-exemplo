@@ -7,9 +7,9 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 
 export default defineConfig( {
-site: "https://rekall.log.br",
+site: "https://blog-exemplo.da-oliveira-filho-03d.workers.dev",
 integrations: [mdx(), sitemap(), react()],
-output: 'server',
+output: 'static',
 adapter: cloudflare(),
 vite: {
 plugins: [tailwindcss()],

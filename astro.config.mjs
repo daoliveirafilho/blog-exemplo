@@ -9,8 +9,8 @@ import { defineConfig } from "astro/config";
 export default defineConfig( {
 site: "https://rekall.log.br",
 integrations: [mdx(), sitemap(), react()],
-output: "static",
-
+output: 'server',
+adapter: cloudflare(),
 vite: {
 plugins: [tailwindcss()],
 },

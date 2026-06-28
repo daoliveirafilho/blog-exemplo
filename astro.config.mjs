@@ -10,7 +10,6 @@ export default defineConfig( {
 site: "https://blog-exemplo.da-oliveira-filho-03d.workers.dev",
 integrations: [mdx(), sitemap(), react()],
 output: 'static',
-adapter: cloudflare(),
 vite: {
 plugins: [tailwindcss()],
 },
